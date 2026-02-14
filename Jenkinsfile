@@ -64,7 +64,7 @@ print('RMSE:',m['rmse'])
                 ]) {
                     sh '''
                     echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-                    docker push <your-dockerhub-username>/wine-inference:latest
+                    docker push 2022bcs0106saiteja/wine-inference:latest
                     '''
                 }
             }
