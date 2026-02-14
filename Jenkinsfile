@@ -39,7 +39,7 @@ pipeline {
 import json
 m=json.load(open('metrics.json'))
 print('R2:',m['r2'])
-print('MSE:',m['mse'])
+print('RMSE:',m['rmse'])
 "
                 '''
             }
